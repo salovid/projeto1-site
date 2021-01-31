@@ -4,14 +4,15 @@
 }
 
 body {
-  background-color: #afacaf;  
+  background-color: #dce2a4; 
+  margin:2em; 
 }
 
 main {
     background-color: white;
-    width: 800px;
+    width: auto;
     margin: auto;
-    padding: 15px;
+    padding: 3em;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -37,5 +38,15 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color:rgb(100, 28, 0)
+  color:rgb(29, 54, 139)
+}
+
+a.tit, p.tit {
+  font-size: 1.3em;
+  font-weight: 700;
+  color:darkolivegreen
+}
+
+p.sombra {
+ text-shadow: 2px 2px 6px hsl(64, 67%, 52%)
 }
